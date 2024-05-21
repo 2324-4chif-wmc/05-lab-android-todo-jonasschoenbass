@@ -25,13 +25,13 @@ Jonas Schönbaß
 
 * Aufgabenstellung 1 habe ich gemäß den Vorgaben ausgearbeitet und zusätzlich eine funktionierende To-Do-Ansicht implementiert. Diese aktualisiert sich, sobald auf die Checkbox geklickt wird. Zudem habe ich eine Funktion eingebaut, die es ermöglicht, zwischen der Startseite und der To-Do-Seite zu wechseln, wie wir es im letzten Unterricht besprochen haben. Auf der Startseite werden standardmäßig Daten angezeigt, wie zum Beispiel die Anzahl der geladenen To-Dos (die To-Dos werden beim Start des Programms eingelesen). Darüber hinaus habe ich eine zusätzliche Anzeige hinzugefügt, die zeigt, wie viele To-Dos erledigt wurden.
 
-image::img/structure.png[]
+image::structure.png[structure img, 200]
 
 * Bei Aufgabenstellung 2 habe ich, wie bereits erwähnt, auf zwei Seiten gearbeitet und einige Verschönerungen vorgenommen, wie die im Unterricht besprochenen Rows und Columns.
 
-image::img/homePage.png[]
+image::homePage.png[homePage img, 300]
 
-image::img/todoPage.png[]
+image::todoPage.png[todoPage img, 300]
 
 * Um dies alles zu gewährleisten, musste ich einige Änderungen am Modell vornehmen, die ich hier kurz beschreibe:
 
