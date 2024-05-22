@@ -13,14 +13,20 @@ import androidx.compose.ui.Modifier
 import at.htl.additionaltask.model.Model
 import at.htl.additionaltask.model.Store
 import at.htl.additionaltask.model.photos.PhotoService
+import at.htl.additionaltask.model.post.PostService
 import at.htl.additionaltask.model.todo.TodoService
 
 @Composable
-fun TabScreen (model: Model, store: Store, todoService: TodoService, photoService: PhotoService, ){
+fun TabScreen (
+    model: Model,
+    store: Store,
+    todoService: TodoService,
+    photoService: PhotoService,
+    postService: PostService, ){
 
     var uiState = model.uiState
     var tabIndex = uiState.selectedTab
-    var tabs = listOf("Home", "ToDos", "Photos")
+    var tabs = listOf("Home", "ToDos", "Photos", "Post")
 
     Column (
         modifier = Modifier.fillMaxSize()
@@ -41,9 +47,10 @@ fun TabScreen (model: Model, store: Store, todoService: TodoService, photoServic
         }
 
         when(tabIndex){
-            0 -> HomeScreen(model, store, todoService, photoService)
+            0 -> HomeScreen(model, store, todoService, photoService, postService)
             1 -> TodoScreen(model, store)
             2 -> PhotosScreen(model)
+            3 -> PostScreen(model)
         }
 
     }

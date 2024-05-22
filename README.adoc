@@ -91,11 +91,12 @@ class MainView {
 ----
 In MainView gab es dann doch erhebliche Änderungen, da ich die Ansicht auf mehrere Seiten aufgeteilt habe. Jetzt übergebe ich nur noch das ViewModel und den Store an den TabScreen, der die Navigation und die Anzeige der weiteren Seiten übernimmt.
 
-* Bei der dritten Aufgabe habe ich eigenständig ein völlig neues Android-Projekt eingerichtet. Zusätzlich habe ich mehrere Tabs eingefügt. Die Tabs umfassen "Home", auf der Daten geladen und bearbeitet werden können, sowie "Todos", wo wie gewohnt Todos angezeigt werden. Dies habe ich zur Übung wiederholt. Zudem habe ich eine Seite mit Bildern erstellt, die ebenfalls von einem REST-Endpunkt abgerufen werden. Auf der "Home"-Seite ist es möglich, die Anzahl der anzuzeigenden Bilder zu ändern.
+* Bei der dritten Aufgabe habe ich eigenständig ein völlig neues Android-Projekt eingerichtet und mehrere Tabs hinzugefügt. Diese umfassen "Home", wo Daten geladen und bearbeitet werden können, sowie "Todos", wo wie gewohnt Todos angezeigt werden. Dies habe ich zur Übung wiederholt. Zudem habe ich eine Seite mit Bildern erstellt, die ebenfalls von einem REST-Endpunkt abgerufen werden. Auf der "Home"-Seite ist es möglich, die Anzahl der anzuzeigenden Bilder zu ändern. Weiterhin habe ich eine Post-Seite hinzugefügt, die von einem weiteren REST-Endpunkt Daten abruft und einen einfachen Text anzeigt. Zusätzlich gibt es auf der "Home"-Seite die Möglichkeit, neue Posts zu schreiben, die per Post-Request an die Datenbank gesendet und der Liste hinzugefügt werden.
 
 image::additional1.png[additional1, 300]
 image::additional2.png[additional2, 300]
 image::additional3.png[additional3, 300]
+image::additional4.png[additional4, 300]
 
 
 
